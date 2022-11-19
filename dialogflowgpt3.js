@@ -14,7 +14,7 @@ app.post("/dialogflow", express.json(), (req, res) => {
     agent.handleRequest(intentMap);
   
     function welcome(agent) {
-      agent.add('Hi, I am Miera! I am your virtual personal assistant from RTFTT Signal Membership. How can I help you today?');
+      agent.add('Hi, I am Miera! I am your virtual personal assistant from RTFTT Signal Membership. How can I help you today?'); 
   }
   
   async function defaultFallback(agent) {
